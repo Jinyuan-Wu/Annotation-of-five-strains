@@ -1,0 +1,4 @@
+The complete coding sequences (CDSs) of five isolates were annotated to six databases, the softwares and parameters used are as follows:
+. TIGRFAMS, Pfam, and gene ontology (GO) databases were anntated using Interproscan (v5.25-64.0) with the parameters: -appl Pfam, TIGRFAM, SMART – iprlookup -goterms -t p -f TSV. 
+.  Kyoto Encyclopedia of genes and genomes (KEGG) and refseq databases were anntated using protein BLAST with the  parameters: -evalue 1e-05 -outfmt '6 std qlen slen stitle' -max_target_seqs 5.
+.  The clusters of orthologous groups (COG) database were anntated using rpsblast with the parameters: -evalue 0.01 -seg no -outfmt 5. 
